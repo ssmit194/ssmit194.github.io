@@ -1,0 +1,39 @@
+/*CSS DOCUMENT*/
+
+body{
+	background: rgb(200, 200, 200);
+	padding-left: .5em
+}
+
+h1{
+	color: rgb(26, 21, 179);
+	font-size: 3em;
+	margin: 1em 2em 1em 0em;
+	padding:0em;
+	background-color: rgb(200, 200, 200);
+	font-family: sans-serif;
+}
+
+h2{
+	color: rgb(26, 21, 179);
+	font-family: sans-serif;
+}
+
+h3{
+	color: rgb(23, 62, 189);
+	padding-top: .5em
+	font-family: sans-serif;
+}
+
+h4{
+	color: rgb(28, 97, 166);
+	padding-top: .4em
+}
+
+li{
+	list-style: square;
+}
+
+p{
+	margin-left: 0em;
+}

@@ -8,3 +8,82 @@ img {
 }
 
 /*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
+html{
+	background: rgb(242, 159, 4);
+
+}
+
+body{
+	margin:1.5em;
+}
+
+header {
+	padding: 1em;
+	background: rgb(242, 159, 4);
+}
+
+figure{
+	background: rgb(216, 103, 4);
+}
+figcaption {
+	font-family: Palatino;
+	font-style: italic;
+	font-size: .75em;
+	padding: .5em;
+}
+
+main{
+	background: rgb(242, 159, 4);
+	padding: .25em;
+}
+
+h1{	
+	font-family: Geneva;
+	font-size:2em;
+	font-weight: bold;
+	color: rgb(89, 17, 1);
+
+}
+
+h2 {
+	font-family: Geneva;
+	font-size: 1em;
+	color: rgb(89, 17, 1);
+}
+
+h3 {
+	color: rgb(89, 17, 1);
+	font-family: Geneva;
+	margin: .25em, 0em, 0em, .5em ;
+}
+
+ul {
+	font-family: Palatino;
+	padding-left: 1em;
+
+}
+
+h6{
+	font-family: geneva;
+	font-size: .75em; 
+}
+
+.directions {
+	padding-top: 2em;
+	list-style-type: lower-alpha;
+	text-align: left;
+	list-style-position: outside;
+
+}
+
+ol {
+	font-family: Palatino;
+	padding-left: 1em;
+	padding-bottom: .5em;
+}
+
+li{
+	padding-bottom: .6em;
+}
+
+

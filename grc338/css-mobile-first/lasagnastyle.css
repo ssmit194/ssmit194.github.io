@@ -25,6 +25,11 @@ header {
 figure{
 	background: rgb(216, 103, 4);
 }
+
+img{
+	max-width: 100%;
+	height: auto;
+}
 figcaption {
 	font-family: Palatino;
 	font-style: italic;

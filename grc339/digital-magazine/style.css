@@ -1,0 +1,106 @@
+/*CSS document*/
+@import url("https://use.typekit.net/lcl4unu.css");
+
+body{
+    margin: auto;
+    font-family: ff-meta-web-pro, sans-serif;
+    background-color: #FEDC97;
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+    padding: 1.5em;
+}
+
+header img {
+    max-width: 10em;
+}
+
+/*nav ul{
+    word-spacing: .5em;
+}*/
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: .3em;
+
+} 
+
+nav ul li a{
+  text-decoration: none;
+  color: #33658A;
+}
+
+nav ul li a:hover{
+  color: #698996;
+}
+
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+h3{
+    margin: 0;
+}
+
+h2{
+    color: #33658A;
+    font-family: freight-display-pro, serif;
+    font-size: 2em;
+
+}
+
+.mainstory h3{
+    font-family: freight-display-pro, serif;
+    font-size: 2em;
+
+}
+
+.imageteaser h3{
+    font-family: freight-display-pro, serif;
+    font-size: 1.7em;
+}
+
+.teaser h3{
+    font-family: freight-display-pro, serif;
+    font-size: 1.5em;
+    text-decoration: none;
+
+}
+
+main a{
+    text-decoration: none;
+    color: #33658A;
+
+}
+
+aside{
+    font-style: normal;
+}
+
+main a p{
+    color: #08090A;
+}
+
+p{
+    text-decoration: none;
+    color: #08090A;
+}
+
+footer{
+    font-size: .6em;
+}

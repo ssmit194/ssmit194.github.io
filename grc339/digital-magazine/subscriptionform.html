@@ -1,0 +1,93 @@
+<!doctype html>
+    <html>
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link rel="stylesheet" type="text/css" href="style.css">
+            <title>Nikonos V</title> <!-- ★ Please include a proper title.-->
+
+
+            <!-- Helpful meta tags to fight GitHub aggresive caching-->
+                <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+                <meta http-equiv="Pragma" content="no-cache" />
+                <meta http-equiv="Expires" content="0" />
+            
+        </head>	
+
+        <body>
+            <div class="container">
+                <header>
+                    <h1> <a href="index.html"><img src="logo.png" alt="Logo of Nikonos V."> </a></h1>
+                    
+                    <nav>
+                        <ul> <!-- ★ Use as many sections as you want, but replace the dashed lines with actual names for the sections of the publication. You may keep them all linked to the pound symbol, though. -->
+                            <li><a href="mainstory.html">Story of the Week</a></li>
+                             <li><a href="photogallery.html">Gallery</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </nav>
+                </header>  
+                <main class="subscription">
+                    <form>
+                        <h2>
+                            Subscribe!
+                        </h2>
+                        <p>
+                            Fill out this subscription for to stay up to date on our adventures!
+                        </p>
+
+                        <section class="personal">
+                            <h2>Personal Information</h2>
+                            <ul>
+                                <li>
+                                    <label for="name">Name:</label>
+                                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                                </li>
+                                <li>
+                                    <label for="email">email:</label>
+                                    <input type="text" name="email" id="email" placeholder="Enter your email">
+                                </li>
+                            </ul>
+                        </section>
+                        <section class="form">
+                            <h2>Options</h2>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" id="images" value="images">
+                                    <label for="images">Images</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="stories" value="stories">
+                                    <label for="stories">Stories</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="Posts" value="Posts">
+                                    <label for="Posts">Posts</label>
+                                </li>
+                            </ul>
+                            
+                        </section>
+                        <section>
+                            <label for="extra">
+                                Want to add an announcment or comment
+                            </label>
+                            <textarea id="extra" name="extra"></textarea>
+                            
+                        </section>
+                        <section>
+                            <button type="order">Submit</button>
+                        </section>
+
+                    </form>
+                    
+                </main>              
+                
+
+                <footer>
+                    <p> All rights reserved.</p>
+                </footer>
+            </div>
+        </body>
+    </html>
+
+

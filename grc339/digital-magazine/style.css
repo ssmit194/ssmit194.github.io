@@ -92,39 +92,47 @@ h4{
     font-size: 1.5em;
 }
 
-main a{
+main h3 a{
     color: #33658A;
 }
+
+main p a{
+    color: #08090A;
+}
+
 
 p{
     color: #08090A;
 }
 
-main.photos {
-    width: 100%;
+div.content {
+    max-width: 60em;
     margin: auto;
+}
+
+main.gallery {
     position: relative;
     overflow: hidden;
-    padding-bottom: calc(50% + 3em);
+    padding-bottom: calc(66% + 3em);
 }
 
 .gallery figure{
-    margin: auto;
-    width: calc(100% - 2em);
+    margin: 0;
+    width: 100%;
     position: absolute;
     opacity: 0;
-    transition: opacity .5s;
+    transition: left 1s, opacity .5s;
 }
 
-input:nth-of-type(1):checked~main.photos figure.gallery:nth-of-type(1),
-input:nth-of-type(2):checked~main.photos figure.gallery:nth-of-type(2),
-input:nth-of-type(3):checked~main.photos figure.gallery:nth-of-type(3),
-input:nth-of-type(4):checked~main.photos figure.gallery:nth-of-type(4),
-input:nth-of-type(5):checked~main.photos figure.gallery:nth-of-type(5),
-input:nth-of-type(6):checked~main.photos figure.gallery:nth-of-type(6),
-input:nth-of-type(7):checked~main.photos figure.gallery:nth-of-type(7),
-input:nth-of-type(8):checked~main.photos figure.gallery:nth-of-type(8), 
-input:nth-of-type(9):checked~main.photos figure.gallery:nth-of-type(9) {
+input:nth-of-type(1):checked~main figure:nth-of-type(1),
+input:nth-of-type(2):checked~main figure:nth-of-type(2),
+input:nth-of-type(3):checked~main figure:nth-of-type(3),
+input:nth-of-type(4):checked~main figure:nth-of-type(4),
+input:nth-of-type(5):checked~main figure:nth-of-type(5),
+input:nth-of-type(6):checked~main figure:nth-of-type(6),
+input:nth-of-type(7):checked~main figure:nth-of-type(7),
+input:nth-of-type(8):checked~main figure:nth-of-type(8), 
+input:nth-of-type(9):checked~main figure:nth-of-type(9) {
     left: 0;
     opacity: 1;
 }
@@ -232,7 +240,6 @@ section.personal ul li input{
     section.mainstory figure img{
         height: 100%;
         opacity: 0;
-        background-color: #ff3;
     }
 
     
